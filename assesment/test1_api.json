@@ -2,11 +2,11 @@
     "3": {
         "inputs": {
             "seed": 156680208700286,
-            "steps": 20,
-            "cfg": 8,
+            "steps": 30,
+            "cfg": 6.5,
             "sampler_name": "euler",
             "scheduler": "normal",
-            "denoise": 1,
+            "denoise": 0.7000000000000002,
             "model": [
                 "4",
                 0
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "add vibrant background colours, ensure bottle edges are highlighted according to lighting.",
+            "text": "soft background that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
             "clip": [
                 "4",
                 1
@@ -53,7 +53,7 @@
     },
     "7": {
         "inputs": {
-            "text": "blur, pixelated ",
+            "text": "sharp finish, transperent glass, simple style",
             "clip": [
                 "4",
                 1
@@ -95,7 +95,7 @@
     },
     "10": {
         "inputs": {
-            "image": "example.mp4"
+            "image": "51C408F2-775E-4DA7-A55D-027274D679E5.jpg"
         },
         "class_type": "LoadImage",
         "_meta": {
