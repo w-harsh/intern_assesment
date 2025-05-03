@@ -267,7 +267,7 @@
                 "ver": "0.3.27"
             },
             "widgets_values": [
-                "ComfyUI"
+                "final_output"
             ]
         },
         {
