@@ -31,7 +31,7 @@
     },
     "4": {
         "inputs": {
-            "ckpt_name": "SD1.5/DreamShaper.safetensors"
+            "ckpt_name": "AbsoluteReality_1.8.1_pruned.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "soft background that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
+            "text": "soft background with vibrant colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
             "clip": [
                 "4",
                 1
@@ -53,7 +53,7 @@
     },
     "7": {
         "inputs": {
-            "text": "sharp finish, transperent glass, simple style",
+            "text": "deformed bottle, changed text, different perfume, altered product, different brand, modified label",
             "clip": [
                 "4",
                 1
