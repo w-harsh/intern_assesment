@@ -3,10 +3,10 @@
         "inputs": {
             "seed": 1053818236909431,
             "steps": 30,
-            "cfg": 6.5,
+            "cfg": 7.5,
             "sampler_name": "euler",
             "scheduler": "normal",
-            "denoise": 0.20000000000000004,
+            "denoise": 0.45000000000000007,
             "model": [
                 "4",
                 0
@@ -31,7 +31,7 @@
     },
     "4": {
         "inputs": {
-            "ckpt_name": "AbsoluteReality_1.8.1_pruned.safetensors"
+            "ckpt_name": "SD1.5/realisticVisionV60B1_v51VAE.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "soft background with vibrant colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
+            "text": "soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
             "clip": [
                 "4",
                 1
@@ -53,7 +53,7 @@
     },
     "7": {
         "inputs": {
-            "text": "deformed bottle, changed text, different perfume, altered product, different brand, modified label",
+            "text": "same bottle, preserved label, identical product, unchanged design",
             "clip": [
                 "4",
                 1
