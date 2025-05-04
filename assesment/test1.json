@@ -1,8 +1,8 @@
 {
     "id": "aead597d-ccc6-4e46-b39d-c8ed4e8b610c",
     "revision": 0,
-    "last_node_id": 15,
-    "last_link_id": 13,
+    "last_node_id": 16,
+    "last_link_id": 17,
     "nodes": [
         {
             "id": 3,
@@ -16,7 +16,7 @@
                 262
             ],
             "flags": {},
-            "order": 6,
+            "order": 5,
             "mode": 0,
             "inputs": [
                 {
@@ -27,12 +27,12 @@
                 {
                     "name": "positive",
                     "type": "CONDITIONING",
-                    "link": 4
+                    "link": 16
                 },
                 {
                     "name": "negative",
                     "type": "CONDITIONING",
-                    "link": 6
+                    "link": 14
                 },
                 {
                     "name": "latent_image",
@@ -57,12 +57,12 @@
             },
             "widgets_values": [
                 1053818236909431,
-                "fixed",
-                30,
+                "randomize",
+                7,
                 6,
                 "euler",
                 "normal",
-                0.4000000000000001
+                0.30000000000000004
             ]
         },
         {
@@ -77,7 +77,7 @@
                 98
             ],
             "flags": {},
-            "order": 0,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -114,7 +114,7 @@
                 "Node name for S&R": "CheckpointLoaderSimple"
             },
             "widgets_values": [
-                "SD1.5/realisticVisionV60B1_v51VAE.safetensors"
+                "realvisxlV40_v40LightningBakedvae.safetensors"
             ]
         },
         {
@@ -129,7 +129,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 3,
+            "order": 2,
             "mode": 0,
             "inputs": [
                 {
@@ -144,18 +144,21 @@
                     "type": "CONDITIONING",
                     "slot_index": 0,
                     "links": [
-                        4
+                        16
                     ]
                 }
             ],
+            "title": "CLIP Text Encode (positive Prompt)",
             "properties": {
                 "cnr_id": "comfy-core",
                 "ver": "0.3.27",
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
-            ]
+                "maintain the same brand label and text on the bottle,\nadd a soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
+            ],
+            "color": "#232",
+            "bgcolor": "#353"
         },
         {
             "id": 7,
@@ -169,7 +172,7 @@
                 180.6060791015625
             ],
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [
                 {
@@ -184,18 +187,21 @@
                     "type": "CONDITIONING",
                     "slot_index": 0,
                     "links": [
-                        6
+                        14
                     ]
                 }
             ],
+            "title": "CLIP Text Encode (negative Prompt)",
             "properties": {
                 "cnr_id": "comfy-core",
                 "ver": "0.3.27",
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "same bottle, \npreserved label \"AQUA DI GIO GIORGIO ARMANI , \nidentical product, \nunchanged design"
-            ]
+                "different bottle structure, \nchanged text label,\nchanged brand name"
+            ],
+            "color": "#322",
+            "bgcolor": "#533"
         },
         {
             "id": 8,
@@ -209,7 +215,7 @@
                 46
             ],
             "flags": {},
-            "order": 7,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -229,7 +235,7 @@
                     "type": "IMAGE",
                     "slot_index": 0,
                     "links": [
-                        9
+                        17
                     ]
                 }
             ],
@@ -239,36 +245,6 @@
                 "Node name for S&R": "VAEDecode"
             },
             "widgets_values": []
-        },
-        {
-            "id": 9,
-            "type": "SaveImage",
-            "pos": [
-                1451,
-                189
-            ],
-            "size": [
-                210,
-                270
-            ],
-            "flags": {},
-            "order": 8,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "images",
-                    "type": "IMAGE",
-                    "link": 9
-                }
-            ],
-            "outputs": [],
-            "properties": {
-                "cnr_id": "comfy-core",
-                "ver": "0.3.27"
-            },
-            "widgets_values": [
-                "final_output"
-            ]
         },
         {
             "id": 10,
@@ -282,7 +258,7 @@
                 314
             ],
             "flags": {},
-            "order": 2,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -321,7 +297,7 @@
                 46
             ],
             "flags": {},
-            "order": 5,
+            "order": 4,
             "mode": 0,
             "inputs": [
                 {
@@ -352,44 +328,32 @@
             "widgets_values": []
         },
         {
-            "id": 15,
-            "type": "CropMask",
+            "id": 16,
+            "type": "PreviewImage",
             "pos": [
-                544.7571411132812,
-                9.194402694702148
+                1536.68701171875,
+                205.73377990722656
             ],
             "size": [
-                270,
-                130
+                140,
+                26
             ],
             "flags": {},
-            "order": 1,
+            "order": 7,
             "mode": 0,
             "inputs": [
                 {
-                    "name": "mask",
-                    "type": "MASK",
-                    "link": null
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 17
                 }
             ],
-            "outputs": [
-                {
-                    "name": "MASK",
-                    "type": "MASK",
-                    "links": null
-                }
-            ],
+            "outputs": [],
             "properties": {
                 "cnr_id": "comfy-core",
                 "ver": "0.3.27",
-                "Node name for S&R": "CropMask"
-            },
-            "widgets_values": [
-                0,
-                0,
-                512,
-                512
-            ]
+                "Node name for S&R": "PreviewImage"
+            }
         }
     ],
     "links": [
@@ -410,14 +374,6 @@
             "CLIP"
         ],
         [
-            4,
-            6,
-            0,
-            3,
-            1,
-            "CONDITIONING"
-        ],
-        [
             5,
             4,
             1,
@@ -426,28 +382,12 @@
             "CLIP"
         ],
         [
-            6,
-            7,
-            0,
-            3,
-            2,
-            "CONDITIONING"
-        ],
-        [
             7,
             3,
             0,
             8,
             0,
             "LATENT"
-        ],
-        [
-            9,
-            8,
-            0,
-            9,
-            0,
-            "IMAGE"
         ],
         [
             10,
@@ -480,16 +420,40 @@
             12,
             1,
             "VAE"
+        ],
+        [
+            14,
+            7,
+            0,
+            3,
+            2,
+            "CONDITIONING"
+        ],
+        [
+            16,
+            6,
+            0,
+            3,
+            1,
+            "CONDITIONING"
+        ],
+        [
+            17,
+            8,
+            0,
+            16,
+            0,
+            "IMAGE"
         ]
     ],
     "groups": [],
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.7513148009015777,
+            "scale": 0.5131581182307069,
             "offset": [
-                450.06782154053445,
-                -129.3831264031178
+                435.475045498304,
+                191.009638348192
             ]
         },
         "frontendVersion": "1.18.0"
