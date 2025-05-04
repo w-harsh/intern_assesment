@@ -1,9 +1,9 @@
 {
     "3": {
         "inputs": {
-            "seed": 1053818236909431,
+            "seed": 647314471025299,
             "steps": 7,
-            "cfg": 6,
+            "cfg": 7,
             "sampler_name": "euler",
             "scheduler": "normal",
             "denoise": 0.30000000000000004,
