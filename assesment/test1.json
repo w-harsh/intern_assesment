@@ -59,10 +59,10 @@
                 1053818236909431,
                 "fixed",
                 30,
-                6.5,
+                7.5,
                 "euler",
                 "normal",
-                0.20000000000000004
+                0.45000000000000007
             ]
         },
         {
@@ -114,7 +114,7 @@
                 "Node name for S&R": "CheckpointLoaderSimple"
             },
             "widgets_values": [
-                "AbsoluteReality_1.8.1_pruned.safetensors"
+                "SD1.5/realisticVisionV60B1_v51VAE.safetensors"
             ]
         },
         {
@@ -154,7 +154,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "soft background with vibrant colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
+                "soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
             ]
         },
         {
@@ -194,7 +194,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "deformed bottle, changed text, different perfume, altered product, different brand, modified label"
+                "same bottle, preserved label, identical product, unchanged design"
             ]
         },
         {
@@ -448,8 +448,8 @@
         "ds": {
             "scale": 0.6830134553650712,
             "offset": [
-                371.48740204819615,
-                -76.72771287641602
+                66.36892630356749,
+                10.825449251269472
             ]
         },
         "frontendVersion": "1.18.0"
