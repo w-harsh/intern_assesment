@@ -56,13 +56,13 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                735819997984711,
+                321451857102725,
                 "randomize",
                 7,
                 7,
                 "euler",
                 "normal",
-                0.20000000000000004
+                0.25000000000000006
             ]
         },
         {
