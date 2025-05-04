@@ -6,7 +6,7 @@
             "cfg": 7,
             "sampler_name": "euler",
             "scheduler": "normal",
-            "denoise": 0.30000000000000004,
+            "denoise": 0.4000000000000001,
             "model": [
                 "4",
                 0
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "maintain the same brand label and text on the bottle,\nadd a soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
+            "text": "maintain the same brand label and text on the bottle,\nchange background colour from white to any vibrant colour which highlights the bottle more, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
             "clip": [
                 "4",
                 1
@@ -53,7 +53,7 @@
     },
     "7": {
         "inputs": {
-            "text": "different bottle structure, \nchanged text label,\nchanged brand name",
+            "text": "different bottle structure, \nchanged text label,\nchanged brand name,\nchanged bottle colour",
             "clip": [
                 "4",
                 1
