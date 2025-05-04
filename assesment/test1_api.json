@@ -53,7 +53,7 @@
     },
     "7": {
         "inputs": {
-            "text": "different bottle structure, \nchanged text label,\nchanged brand name,\nchanged bottle colour",
+            "text": "different bottle structure, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour",
             "clip": [
                 "4",
                 1
