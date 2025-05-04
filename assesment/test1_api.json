@@ -2,11 +2,11 @@
     "3": {
         "inputs": {
             "seed": 1053818236909431,
-            "steps": 30,
+            "steps": 7,
             "cfg": 6,
             "sampler_name": "euler",
             "scheduler": "normal",
-            "denoise": 0.4000000000000001,
+            "denoise": 0.30000000000000004,
             "model": [
                 "4",
                 0
@@ -31,7 +31,7 @@
     },
     "4": {
         "inputs": {
-            "ckpt_name": "SD1.5/realisticVisionV60B1_v51VAE.safetensors"
+            "ckpt_name": "realvisxlV40_v40LightningBakedvae.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
+            "text": "maintain the same brand label and text on the bottle,\nadd a soft background with vibrant blue and pink colours that highlights the bottle, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
             "clip": [
                 "4",
                 1
@@ -48,12 +48,12 @@
         },
         "class_type": "CLIPTextEncode",
         "_meta": {
-            "title": "CLIP Text Encode (Prompt)"
+            "title": "CLIP Text Encode (positive Prompt)"
         }
     },
     "7": {
         "inputs": {
-            "text": "same bottle, \npreserved label \"AQUA DI GIO GIORGIO ARMANI , \nidentical product, \nunchanged design",
+            "text": "different bottle structure, \nchanged text label,\nchanged brand name",
             "clip": [
                 "4",
                 1
@@ -61,7 +61,7 @@
         },
         "class_type": "CLIPTextEncode",
         "_meta": {
-            "title": "CLIP Text Encode (Prompt)"
+            "title": "CLIP Text Encode (negative Prompt)"
         }
     },
     "8": {
@@ -78,19 +78,6 @@
         "class_type": "VAEDecode",
         "_meta": {
             "title": "VAE Decode"
-        }
-    },
-    "9": {
-        "inputs": {
-            "filename_prefix": "final_output",
-            "images": [
-                "8",
-                0
-            ]
-        },
-        "class_type": "SaveImage",
-        "_meta": {
-            "title": "Save Image"
         }
     },
     "10": {
@@ -118,16 +105,16 @@
             "title": "VAE Encode"
         }
     },
-    "15": {
+    "16": {
         "inputs": {
-            "x": 0,
-            "y": 0,
-            "width": 512,
-            "height": 512
+            "images": [
+                "8",
+                0
+            ]
         },
-        "class_type": "CropMask",
+        "class_type": "PreviewImage",
         "_meta": {
-            "title": "CropMask"
+            "title": "Preview Image"
         }
     }
 }
