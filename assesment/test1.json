@@ -198,7 +198,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "different bottle structure, \nchanged text label,\nchanged brand name,\nchanged bottle colour"
+                "different bottle structure, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour"
             ],
             "color": "#322",
             "bgcolor": "#533"
