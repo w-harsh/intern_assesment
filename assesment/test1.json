@@ -155,7 +155,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "maintain the same brand label and text on the bottle,\nadd a light background colour, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
+                "maintain the same brand label and text on the bottle,\nadd a backdrop to the bottle which is a combination of colours, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
             ],
             "color": "#232",
             "bgcolor": "#353"
