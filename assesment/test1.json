@@ -1,7 +1,7 @@
 {
     "id": "aead597d-ccc6-4e46-b39d-c8ed4e8b610c",
     "revision": 0,
-    "last_node_id": 12,
+    "last_node_id": 15,
     "last_link_id": 13,
     "nodes": [
         {
@@ -16,7 +16,7 @@
                 262
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -59,10 +59,10 @@
                 1053818236909431,
                 "fixed",
                 30,
-                7.5,
+                6,
                 "euler",
                 "normal",
-                0.45000000000000007
+                0.4000000000000001
             ]
         },
         {
@@ -77,7 +77,7 @@
                 98
             ],
             "flags": {},
-            "order": 1,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -129,7 +129,7 @@
                 164.31304931640625
             ],
             "flags": {},
-            "order": 2,
+            "order": 3,
             "mode": 0,
             "inputs": [
                 {
@@ -169,7 +169,7 @@
                 180.6060791015625
             ],
             "flags": {},
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [
                 {
@@ -194,7 +194,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "same bottle, preserved label, identical product, unchanged design"
+                "same bottle, \npreserved label \"AQUA DI GIO GIORGIO ARMANI , \nidentical product, \nunchanged design"
             ]
         },
         {
@@ -209,7 +209,7 @@
                 46
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [
                 {
@@ -252,7 +252,7 @@
                 270
             ],
             "flags": {},
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [
                 {
@@ -282,7 +282,7 @@
                 314
             ],
             "flags": {},
-            "order": 0,
+            "order": 2,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -321,7 +321,7 @@
                 46
             ],
             "flags": {},
-            "order": 4,
+            "order": 5,
             "mode": 0,
             "inputs": [
                 {
@@ -350,6 +350,46 @@
                 "Node name for S&R": "VAEEncode"
             },
             "widgets_values": []
+        },
+        {
+            "id": 15,
+            "type": "CropMask",
+            "pos": [
+                544.7571411132812,
+                9.194402694702148
+            ],
+            "size": [
+                270,
+                130
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "mask",
+                    "type": "MASK",
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "MASK",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.27",
+                "Node name for S&R": "CropMask"
+            },
+            "widgets_values": [
+                0,
+                0,
+                512,
+                512
+            ]
         }
     ],
     "links": [
@@ -446,10 +486,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6830134553650712,
+            "scale": 0.7513148009015777,
             "offset": [
-                66.36892630356749,
-                10.825449251269472
+                450.06782154053445,
+                -129.3831264031178
             ]
         },
         "frontendVersion": "1.18.0"
