@@ -62,7 +62,7 @@
                 7,
                 "dpmpp_2m",
                 "normal",
-                0.25000000000000006
+                0.30000000000000004
             ]
         },
         {
@@ -103,7 +103,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "High end luxury perfume advertisment with the bottle edges being highlighted. Add a background of ocean waves."
+                "Make it in anime style with a ocean in the background"
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -146,7 +146,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "changed text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour"
+                "text, watermark, blur, pixelated"
             ],
             "color": "#322",
             "bgcolor": "#533"
@@ -206,7 +206,7 @@
                 314
             ],
             "flags": {},
-            "order": 0,
+            "order": 1,
             "mode": 0,
             "inputs": [],
             "outputs": [
@@ -229,7 +229,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "51C408F2-775E-4DA7-A55D-027274D679E5.jpg",
+                "images.jpeg",
                 "image"
             ]
         },
@@ -316,7 +316,7 @@
                 98
             ],
             "flags": {},
-            "order": 1,
+            "order": 0,
             "mode": 0,
             "inputs": [],
             "outputs": [
