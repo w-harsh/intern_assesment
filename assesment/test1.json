@@ -155,7 +155,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "maintain the same brand label and text on the bottle,\nbottle situated in the middle of ocean with low tide waves, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
+                "bottle situated in amongst ocean waves,\nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -451,10 +451,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.9090909090909091,
+            "scale": 0.620921323059155,
             "offset": [
-                51.94807974427704,
-                -187.34412755491363
+                518.8645431720117,
+                39.331062869891156
             ]
         },
         "frontendVersion": "1.18.0"
