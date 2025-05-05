@@ -1,8 +1,8 @@
 {
     "3": {
         "inputs": {
-            "seed": 187337001378226,
-            "steps": 15,
+            "seed": 959738828344574,
+            "steps": 10,
             "cfg": 7,
             "sampler_name": "euler",
             "scheduler": "normal",
@@ -31,7 +31,7 @@
     },
     "4": {
         "inputs": {
-            "ckpt_name": "SD1.5/DreamShaper.safetensors"
+            "ckpt_name": "realvisxlV50_v50LightningBakedvae.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "bottle situated in amongst ocean waves,\nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
+            "text": "ensure that bottle text is unchanged\nanimated background \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
             "clip": [
                 "4",
                 1
