@@ -103,7 +103,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "high end brand advertisment with the bottle edges being highlighted\nadd an animated background of ocean waves \nretain the bottle text "
+                "High end luxury perfume advertisment with the bottle edges being highlighted. Add a background of ocean waves."
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -350,7 +350,7 @@
                 "Node name for S&R": "CheckpointLoaderSimple"
             },
             "widgets_values": [
-                "realisticVisionV60B1_v51VAE.safetensors"
+                "juggernautXL_version2.safetensors"
             ]
         }
     ],
@@ -448,10 +448,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.7513148009015783,
+            "scale": 0.6830134553650712,
             "offset": [
-                231.25190301455763,
-                -25.453001625345255
+                359.95960301455756,
+                17.272098374654686
             ]
         },
         "frontendVersion": "1.18.0"
