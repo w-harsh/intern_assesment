@@ -57,10 +57,10 @@
             },
             "widgets_values": [
                 86383954044520,
-                "randomize",
-                10,
+                "fixed",
+                20,
                 7,
-                "euler",
+                "dpmpp_2m",
                 "normal",
                 0.25000000000000006
             ]
