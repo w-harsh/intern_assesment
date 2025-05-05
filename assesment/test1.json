@@ -56,7 +56,7 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                192834215356822,
+                357550013212264,
                 "randomize",
                 7,
                 7,
@@ -155,7 +155,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "maintain the same brand label and text on the bottle,\nsoft pastel gradient background with pink and blue tones, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
+                "maintain the same brand label and text on the bottle,\nchange background of the bottle to soft pastel gradient background with pink and blue tones, \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment"
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -453,8 +453,8 @@
         "ds": {
             "scale": 0.6830134553650711,
             "offset": [
-                297.4063933355619,
-                -19.5307380849203
+                436.3495548248197,
+                -7.232101489461207
             ]
         },
         "frontendVersion": "1.18.0"
