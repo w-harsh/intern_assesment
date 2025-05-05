@@ -44,7 +44,7 @@
     },
     "7": {
         "inputs": {
-            "text": "white background, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour",
+            "text": "changed text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour",
             "clip": [
                 "19",
                 1
