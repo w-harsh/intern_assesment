@@ -103,7 +103,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "Make it in anime style with a ocean in the background"
+                "professional product photography of Acqua di Giò fragrance bottle by Giorgio Armani, centered composition, studio lighting, soft pastel gradient background with pink and blue tones, clean minimalist aesthetic, high-end product shot, crisp details, cosmetic advertising"
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -146,7 +146,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "text, watermark, blur, pixelated"
+                "plain background, pure white background, harsh shadows, distorted proportions, blurry, low quality, text errors, cropped image, oversaturated colors, dark lighting"
             ],
             "color": "#322",
             "bgcolor": "#533"
@@ -229,7 +229,7 @@
                 "Node name for S&R": "LoadImage"
             },
             "widgets_values": [
-                "images.jpeg",
+                "51C408F2-775E-4DA7-A55D-027274D679E5.jpg",
                 "image"
             ]
         },
@@ -450,8 +450,8 @@
         "ds": {
             "scale": 0.6830134553650712,
             "offset": [
-                359.95960301455756,
-                17.272098374654686
+                402.71125152529964,
+                43.33319454469864
             ]
         },
         "frontendVersion": "1.18.0"
