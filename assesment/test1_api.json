@@ -6,7 +6,7 @@
             "cfg": 7,
             "sampler_name": "dpmpp_2m",
             "scheduler": "normal",
-            "denoise": 0.25000000000000006,
+            "denoise": 0.30000000000000004,
             "model": [
                 "19",
                 0
@@ -31,7 +31,7 @@
     },
     "6": {
         "inputs": {
-            "text": "High end luxury perfume advertisment with the bottle edges being highlighted. Add a background of ocean waves.",
+            "text": "Make it in anime style with a ocean in the background",
             "clip": [
                 "19",
                 1
@@ -44,7 +44,7 @@
     },
     "7": {
         "inputs": {
-            "text": "changed text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour",
+            "text": "text, watermark, blur, pixelated",
             "clip": [
                 "19",
                 1
@@ -73,7 +73,7 @@
     },
     "10": {
         "inputs": {
-            "image": "51C408F2-775E-4DA7-A55D-027274D679E5.jpg"
+            "image": "images.jpeg"
         },
         "class_type": "LoadImage",
         "_meta": {
