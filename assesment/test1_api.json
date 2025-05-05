@@ -1,14 +1,14 @@
 {
     "3": {
         "inputs": {
-            "seed": 348711769573582,
+            "seed": 86383954044520,
             "steps": 10,
             "cfg": 7,
             "sampler_name": "euler",
             "scheduler": "normal",
             "denoise": 0.25000000000000006,
             "model": [
-                "4",
+                "19",
                 0
             ],
             "positive": [
@@ -29,20 +29,11 @@
             "title": "KSampler"
         }
     },
-    "4": {
-        "inputs": {
-            "ckpt_name": "stableDiffusion3SD3_sd3Medium.safetensors"
-        },
-        "class_type": "CheckpointLoaderSimple",
-        "_meta": {
-            "title": "Load Checkpoint"
-        }
-    },
     "6": {
         "inputs": {
             "text": "high end brand advertisment with the bottle edges being highlighted\nadd an animated background of ocean waves \nretain the bottle text ",
             "clip": [
-                "4",
+                "19",
                 1
             ]
         },
@@ -55,7 +46,7 @@
         "inputs": {
             "text": "white background, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour",
             "clip": [
-                "4",
+                "19",
                 1
             ]
         },
@@ -71,7 +62,7 @@
                 0
             ],
             "vae": [
-                "4",
+                "19",
                 2
             ]
         },
@@ -96,7 +87,7 @@
                 0
             ],
             "vae": [
-                "4",
+                "19",
                 2
             ]
         },
@@ -115,6 +106,15 @@
         "class_type": "PreviewImage",
         "_meta": {
             "title": "Preview Image"
+        }
+    },
+    "19": {
+        "inputs": {
+            "ckpt_name": "realisticVisionV60B1_v51VAE.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple",
+        "_meta": {
+            "title": "Load Checkpoint"
         }
     }
 }
