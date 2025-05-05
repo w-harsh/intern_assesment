@@ -146,7 +146,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "white background, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour"
+                "changed text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour"
             ],
             "color": "#322",
             "bgcolor": "#533"
