@@ -10,7 +10,7 @@ workflows:
   - id: 1gjxyixirmf
     name: test1_api.json
     file: assesment/test1_api.json
-    version: 26
+    version: 27
     description: ''
     inputs: []
     outputs: []
@@ -20,4 +20,4 @@ normal_workflows:
   - id: 7na7yerdgcu
     name: test1.json
     file: assesment/test1.json
-    version: 26
+    version: 27
