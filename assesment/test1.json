@@ -56,13 +56,13 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                588619292772819,
+                348711769573582,
                 "randomize",
                 10,
                 7,
                 "euler",
                 "normal",
-                0.30000000000000004
+                0.25000000000000006
             ]
         },
         {
@@ -114,7 +114,7 @@
                 "Node name for S&R": "CheckpointLoaderSimple"
             },
             "widgets_values": [
-                "v1-5-pruned-emaonly-fp16.safetensors"
+                "stableDiffusion3SD3_sd3Medium.safetensors"
             ]
         },
         {
@@ -155,7 +155,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "high end luxury brand advertisment with studio lighting, bottle has a background of blue ocean waves that sharply highlight the bottle edges to give it an aesthetic look."
+                "high end brand advertisment with the bottle edges being highlighted\nadd an animated background of ocean waves \nretain the bottle text "
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -198,7 +198,7 @@
                 "Node name for S&R": "CLIPTextEncode"
             },
             "widgets_values": [
-                "different bottle structure, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour"
+                "white background, \nchanged text label,\nchanged brand name,\nchanged bottle colour,\nchanged text colour"
             ],
             "color": "#322",
             "bgcolor": "#533"
@@ -451,10 +451,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6209213230591552,
+            "scale": 0.6209213230591556,
             "offset": [
-                519.6698374911034,
-                42.87415538057219
+                278.01912263369826,
+                83.68617479268448
             ]
         },
         "frontendVersion": "1.18.0"
