@@ -1,12 +1,12 @@
 {
     "3": {
         "inputs": {
-            "seed": 959738828344574,
+            "seed": 588619292772819,
             "steps": 10,
             "cfg": 7,
             "sampler_name": "euler",
             "scheduler": "normal",
-            "denoise": 0.4000000000000001,
+            "denoise": 0.30000000000000004,
             "model": [
                 "4",
                 0
@@ -31,7 +31,7 @@
     },
     "4": {
         "inputs": {
-            "ckpt_name": "realvisxlV50_v50LightningBakedvae.safetensors"
+            "ckpt_name": "v1-5-pruned-emaonly-fp16.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -40,7 +40,7 @@
     },
     "6": {
         "inputs": {
-            "text": "ensure that bottle text is unchanged\nanimated background \nensure bottle edges are highlighted,\nstudio lighting,\nhigh end luxury perfume advertisment",
+            "text": "high end luxury brand advertisment with studio lighting, bottle has a background of blue ocean waves that sharply highlight the bottle edges to give it an aesthetic look.",
             "clip": [
                 "4",
                 1
