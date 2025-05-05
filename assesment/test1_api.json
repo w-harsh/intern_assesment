@@ -31,7 +31,7 @@
     },
     "6": {
         "inputs": {
-            "text": "high end brand advertisment with the bottle edges being highlighted\nadd an animated background of ocean waves \nretain the bottle text ",
+            "text": "High end luxury perfume advertisment with the bottle edges being highlighted. Add a background of ocean waves.",
             "clip": [
                 "19",
                 1
@@ -110,7 +110,7 @@
     },
     "19": {
         "inputs": {
-            "ckpt_name": "realisticVisionV60B1_v51VAE.safetensors"
+            "ckpt_name": "juggernautXL_version2.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
