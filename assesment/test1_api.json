@@ -1,12 +1,12 @@
 {
     "3": {
         "inputs": {
-            "seed": 357550013212264,
-            "steps": 7,
+            "seed": 187337001378226,
+            "steps": 15,
             "cfg": 7,
             "sampler_name": "euler",
             "scheduler": "normal",
-            "denoise": 0.30000000000000004,
+            "denoise": 0.4000000000000001,
             "model": [
                 "4",
                 0
@@ -31,7 +31,7 @@
     },
     "4": {
         "inputs": {
-            "ckpt_name": "realvisxlV40_v40LightningBakedvae.safetensors"
+            "ckpt_name": "SD1.5/DreamShaper.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
