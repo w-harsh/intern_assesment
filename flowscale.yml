@@ -17,7 +17,7 @@ workflows:
     skip_preprocess: true
     advancedConfig: true
 normal_workflows:
-  - id: 7na7yerdgcu
+  - id: 1gjxyixirmf
     name: test1.json
     file: assesment/test1.json
     version: 29
